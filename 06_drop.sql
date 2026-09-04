@@ -1,0 +1,8 @@
+-- Drop all objects
+DROP FUNCTION IF EXISTS generate_monthly_sales_report(DATE);
+DROP FUNCTION IF EXISTS validate_order_data(INT);
+DROP TABLE IF EXISTS order_items CASCADE;
+DROP TABLE IF EXISTS orders CASCADE;
+DROP TABLE IF EXISTS products CASCADE;
+DROP TABLE IF EXISTS categories CASCADE;
+DROP TABLE IF EXISTS customers CASCADE;
